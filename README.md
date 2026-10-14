@@ -119,13 +119,6 @@ esp_loader_connect_with_stub_provider(&loader, &args, my_stubs, nullptr);
 | **Targets** | ESP32, ESP32-S2, S3, C2, C3, C5, C6, C61, H2, P4, ESP8266 and newer |
 | **Tested** | ESP32 flashed from an ESP32-C6 |
 
-## Logging
-
-The library's own log output is compiled out by default. To turn it on, build with
-`-DSERIAL_FLASHER_LOG_LEVEL=1`…`4` (ERROR…DEBUG), for example with PlatformIO `build_flags`,
-and set `port.log`. Level 4 dumps every packet in hex. That is slow enough to make flashing
-time out, so use it only when debugging.
-
 ## Development
 
 Everything in `src/` except `EspSerialFlasher.*` is upstream code. Don't edit it. To move to
