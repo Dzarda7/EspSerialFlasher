@@ -19,5 +19,4 @@ find "$ROOT/src" -mindepth 1 -maxdepth 1 ! -name 'EspSerialFlasher.*' -exec rm -
 cp -r "$TMP"/src/. "$TMP"/include/. "$TMP"/private_include/. "$ROOT/src/"
 cp "$TMP"/LICENSE "$ROOT/LICENSE"
 echo "esp-serial-flasher $VERSION" > "$ROOT/UPSTREAM_VERSION"
-sed -i "s/^version=.*/version=${VERSION#v}/" "$ROOT/library.properties"
 echo "Updated to esp-serial-flasher $VERSION"
