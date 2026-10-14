@@ -1,0 +1,12 @@
+---
+# Apache-2.0 to match the bundled upstream esp-serial-flasher.
+DEFAULT:
+  perform_check: true
+  allowed_licenses: [Apache-2.0]
+  license_for_new_files: Apache-2.0
+  new_notice_c: |-
+    /*
+     * SPDX-FileCopyrightText: {years} Jaroslav Burian
+     *
+     * SPDX-License-Identifier: {license}
+     */
