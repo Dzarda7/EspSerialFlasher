@@ -27,7 +27,7 @@
   <!-- Host -->
   <rect class="box" x="10" y="10" width="220" height="280" rx="12" stroke-width="1.5"/>
   <text class="title" x="30" y="44">Host</text>
-  <text class="sub" x="30" y="64">any 32-bit Arduino board</text>
+  <text class="sub" x="30" y="64">any Arduino board</text>
   <text class="pin" x="214" y="105" text-anchor="end">TX</text>
   <text class="pin" x="214" y="145" text-anchor="end">RX</text>
   <text class="pin" x="214" y="185" text-anchor="end">reset_pin</text>

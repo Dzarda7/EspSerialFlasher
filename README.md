@@ -117,8 +117,7 @@ esp_loader_connect_with_stub_provider(&loader, &args, my_stubs, nullptr);
 | | |
 |---|---|
 | **Targets** | ESP32, ESP32-S2, S3, C2, C3, C5, C6, C61, H2, P4, ESP8266 and newer |
-| **Hosts** | 32-bit Arduino cores with a `HardwareSerial` (ESP32, RP2040, STM32, SAMD, …). AVR boards are too small |
-| **Tested** | ESP32-C6 host flashing an ESP32 |
+| **Tested** | ESP32 flashed from an ESP32-C6 |
 
 ## Logging
 
