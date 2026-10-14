@@ -1,0 +1,7 @@
+# Not part of the library zip attached to releases.
+/.github export-ignore
+/.pre-commit-config.yaml export-ignore
+/.check_copyright_config.yaml export-ignore
+/.clang-format export-ignore
+/.cz.toml export-ignore
+/.gitattributes export-ignore
