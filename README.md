@@ -32,7 +32,7 @@ UART port, so the whole `esp_loader_*` API works from a sketch.
    - **Arduino IDE**: download the zip from the
      [latest release](https://github.com/Dzarda7/EspSerialFlasher/releases/latest), then go to
      **Sketch → Include Library → Add .ZIP Library…**
-   - **PlatformIO**: `lib_deps = https://github.com/Dzarda7/EspSerialFlasher.git#v0.0.0`
+   - **PlatformIO**: `lib_deps = https://github.com/Dzarda7/EspSerialFlasher.git#v0.1.0`
 2. Wire the boards as shown above.
 3. Open **File → Examples → EspSerialFlasher → FlashFromFile**. Set your pins and upload.
 
