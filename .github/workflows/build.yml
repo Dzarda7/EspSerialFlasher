@@ -20,7 +20,7 @@ jobs:
           persist-credentials: false
       - uses: arduino/arduino-lint-action@9a3603836c75e41753e531167395edeb90ba5dae  # v3.0.0
         with:
-          library-manager: submit  # switch to update once listed in the Library Manager
+          library-manager: update
           compliance: strict
   compile:
     name: Compile ${{ matrix.fqbn }}
